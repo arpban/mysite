@@ -21,6 +21,7 @@ export default ({loc}) => {
 			   	color: #40aaff;
 			}
 			span{
+				font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto, Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,"Times New Roman",Helvetica Neue, sans-serif;
 				font-size: 14px;
 				margin: 0;
 				margin-right: 10px;

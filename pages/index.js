@@ -18,6 +18,7 @@ export default () => (
 		<Posts />
 		<SocialMedia />
 		<div className="copyright">© Arpit Bansal</div>
+
 		<style jsx>
 			{`
 				.copyright{

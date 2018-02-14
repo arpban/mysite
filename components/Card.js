@@ -10,8 +10,8 @@ const Card = (props) => (
                     <img src={props.img} />
                 </div>
                 <div className="description">
-                    <div className="title">Umbrella Note</div>
-                    <div className="summary">it would be able to recognise fonts, colors, create gradients from real world objects.</div>
+                    <div className="title">{props.title}</div>
+                    <div className="summary">{props.summary}</div>
                 </div>
             </a>
         </Link>

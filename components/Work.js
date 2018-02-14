@@ -10,17 +10,20 @@ const Work = () => (
 	<div className="wrap">
 		<h1>Work</h1>
 		<div className="cards">
-			<Card img="../static/img/10.jpeg" loc="/2017/electron-next" />
-			<Card img="../static/img/11.jpg" loc="/2017/electron-next" />
-			<Card img="../static/img/13.jpeg" loc="/2017/electron-next" />
-			<Card img="../static/img/5.jpeg" />
-			<Card img="../static/img/9.jpeg" />
+			<Card img="../static/essays/2018/umbrella-note/screenshot-black.jpg" title="Umbrella Note" summary="Cross platform desktop application for writing and journaling. https://umbrellanote.com" loc="/2018/umbrella-note" />
+			<Card img="../static/essays/2017/popcorncss/1.png" title="Popcorncss" summary="A single page website featuring a collection of beautiful open source UI components. http://popcorncss.com" loc="/2017/popcorncss" />
+			<Card img="../static/essays/2017/postmaker/1.jpg" title="Postmaker" summary="A webapp for managing all your social media in one place." loc="/2017/postmaker" />
+			<Card img="../static/essays/2016/rentspace/4.jpg" title="Rentspace" summary="A webapp for finding appartments on rent." loc="/2016/rentspace" />
+			<Card img="../static/essays/2017/commondrive/1.jpg" title="Common Drive" summary="A website for pooling notes, ppt's and other study material for students. Kind of like dropbox for colleges and schools." loc="/2017/commondrive" />
 		</div>
 
 		<div className="list">
 			<ul>
-				<li><a>Umbrella Note <span>A simple, beautiful and elegant place for writing</span></a></li>
-				<li><a>Popcorncss <span>Collection of beautiful open source UI components</span></a></li>
+				<li><Link href="/2018/umbrella-note"><a>Umbrella Note <span>Cross platform desktop application for writing and journaling. https://umbrellanote.com </span></a></Link></li>
+				<li><Link href="/2017/popcorncss"><a>Popcorncss<span>A single page website featuring a collection of beautiful open source UI components. http://popcorncss.com</span></a></Link></li>
+				<li><Link href="/2017/postmaker"><a>Postmaker <span>A webapp for managing all your social media in one place.</span></a></Link></li>
+				<li><Link href="/2016/rentspace"><a>Rentspace <span>A webapp for finding appartments on rent.</span></a></Link></li>
+				<li><Link href="/2017/commondrive"><a>Common Drive <span>A website for pooling notes, ppt's and other study material for students. Kind of like dropbox for colleges and schools.</span></a></Link></li>
 			</ul>
 		</div>
 		<div className="button">
@@ -59,6 +62,9 @@ const Work = () => (
 			.list a:hover{
 				color: #40aaff;
 				cursor: pointer; 
+			}
+			.list a{
+				color: #1e1e1e;
 			}
 			@media ( max-width: 800px ){
 				div.wrap{

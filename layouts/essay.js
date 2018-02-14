@@ -6,7 +6,7 @@ export default ({ children }) => (
     <article>
       {children}
     </article>
-
+    
     <style jsx>
       {`
       article {

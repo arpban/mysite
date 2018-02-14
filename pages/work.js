@@ -42,6 +42,7 @@ export default () => (
 							<a>
 								<b>{post.title}</b>
 								<span>{parseDate(post.date).format('MMMM Do YYYY')}</span>
+								<small>{post.description}</small>
 							</a>
 						</Link>
 					</li>
@@ -69,9 +70,19 @@ export default () => (
 				margin-bottom: 0;
 			}
 
+			.posts-page li small{
+				display: block;
+		    	margin: 5px 0px;
+		    	color: #9b9b9b;
+			}
+
 			a {
 				text-decoration: none;
 				display: block;
+			}
+
+			a:hover{
+				color: #40aaff;
 			}
 
 			b {
@@ -119,7 +130,7 @@ export default () => (
 				}
 
 				a:hover b {
-					color: #000;
+					color: #40aaff;
 				}
 
 				h1 {
