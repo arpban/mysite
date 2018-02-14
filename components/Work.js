@@ -11,8 +11,8 @@ const Work = () => (
 		<h1>Work</h1>
 		<div className="cards">
 			<Card img="../static/essays/2018/umbrella-note/screenshot-black.JPG" title="Umbrella Note" summary="Cross platform desktop application for writing and journaling. https://umbrellanote.com" loc="/2018/umbrella-note" />
-			<Card img="../static/essays/2017/popcorncss/1.png" title="Popcorncss" summary="A single page website featuring a collection of beautiful open source UI components. http://popcorncss.com" loc="/2017/popcorncss" />
-			<Card img="../static/essays/2017/postmaker/1.JPG" title="Postmaker" summary="A webapp for managing all your social media in one place." loc="/2017/postmaker" />
+			<Card img="../static/essays/2017/popcorncss/1.PNG" title="Popcorncss" summary="A single page website featuring a collection of beautiful open source UI components. http://popcorncss.com" loc="/2017/popcorncss" />
+			<Card img="../static/essays/2017/postmaker/1.jpg" title="Postmaker" summary="A webapp for managing all your social media in one place." loc="/2017/postmaker" />
 			<Card img="../static/essays/2016/rentspace/4.JPG" title="Rentspace" summary="A webapp for finding appartments on rent." loc="/2016/rentspace" />
 			<Card img="../static/essays/2017/commondrive/1.JPG" title="Common Drive" summary="A website for pooling notes, ppt's and other study material for students. Kind of like dropbox for colleges and schools." loc="/2017/commondrive" />
 		</div>
