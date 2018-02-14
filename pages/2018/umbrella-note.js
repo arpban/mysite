@@ -59,8 +59,8 @@ And the most important - A beautiful UI.
 <P>
 In october 2017,  I was learning electron which is a javascript framework for making cross platfrom desktop applications. And I had to make something so I started working on umbrella note. I released v1.0.0 in january 2018 and as I write this post, I am working on v2.0.0.
 </P>
-<Image src="/static/essays/2018/umbrella-note/1.jpg" isWindow/>
-<Image src="/static/essays/2018/umbrella-note/7.jpg" isWindow/>
+<Image src="/static/essays/2018/umbrella-note/1.JPG" isWindow/>
+<Image src="/static/essays/2018/umbrella-note/7.JPG" isWindow/>
 <P>
 with the umbrella note I have tried to achieve all the requirements of a perfect writing application as much as possible. and I am still working. I have kept the application as simple as possible by reducing and refining things. For the desktop application I have put more focus on keyboard shortcuts and thereby reducing the number of visible buttons and options. I have created some really good keybord shortcuts so that you don't ever have to lift your hands off the keyboard. 
 </P>
