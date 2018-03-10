@@ -33,7 +33,7 @@ export default () => (
 		<Title />
 		<div className="posts-page">
 			<h1>{`Posts`}</h1>
-			<p className="writer">by Arpit Bansal</p>
+			
 			<Back />
 
 			<ul>
