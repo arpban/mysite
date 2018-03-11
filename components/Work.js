@@ -64,7 +64,7 @@ const Work = () => (
 				cursor: pointer; 
 			}
 			.list a{
-				color: #1e1e1e;
+				color: #444;
 			}
 			@media ( max-width: 800px ){
 				div.wrap{

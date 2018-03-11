@@ -52,7 +52,7 @@ let posts_list = preparePosts().map(post => (
 			}
 
 			b {
-				color: #1e1e1e;
+				color: #444;
 				font-size: 16px;
 				display: inline-block;
 				font-weight: normal;

@@ -86,7 +86,7 @@ export default () => (
 			}
 
 			b {
-				color: #000;
+				color: #444;
 				font-size: 17px;
 				display: inline-block;
 				font-weight: normal;
@@ -101,7 +101,7 @@ export default () => (
 			}
 
 			h1 {
-				font-size: 35px;
+				font-size: 33px;
 				font-weight: 300;
 				margin: 0;
 			}
@@ -121,7 +121,7 @@ export default () => (
 				}
 
 				b {
-					color: #5a5a5a;
+					color: #444;
 					font-size: 16px;
 				}
 

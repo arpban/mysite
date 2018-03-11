@@ -16,7 +16,7 @@ const Intro = () => (
 		 You can also follow me on  
 		<Link2 href="https://instagram.com/arpbansal"> instagram </Link2>, <Link2 href="https://in.pinterest.com/arbansal/">pinterest</Link2> or <Link2 href="/essays"> read my posts </Link2>.
 		 You can see all my code on<Link2 href="https://github.com/arpban"> github</Link2>.
-		</p><p>🌊🌊🌊 </p>
+		</p>
 		<style jsx>{`
 			div.wrap{
 				padding: 100px 100px 25px;
@@ -27,7 +27,7 @@ const Intro = () => (
 				width: 85%;
 			}
 			h1{
-				font-size: 30px;
+				font-size: 33px;
 				font-weight: 300;
 			}
 			@media ( max-width: 800px ){

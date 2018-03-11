@@ -80,7 +80,7 @@ export default () => (
 			}
 
 			b {
-				color: #1e1e1e;
+				color: #444;
 				font-size: 17px;
 				display: inline-block;
 				font-weight: normal;
@@ -115,7 +115,7 @@ export default () => (
 				}
 
 				b {
-					color: #1e1e1e;
+					color: #444;
 					font-size: 16px;
 				}
 

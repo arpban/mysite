@@ -70,7 +70,7 @@ export default class Page extends React.Component{
 					/>
 					<meta name="twitter:site" content="@arp_ban" />
 					<meta name="twitter:creator" content="@arp_ban" />
-					<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" />
+					<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet" />
 				</Head>
 
 				{this.props.children}
@@ -91,7 +91,7 @@ export default class Page extends React.Component{
 						html,
 						body {
 							height: 100%;
-							color: #1e1e1e;
+							color: #444;
 						}
 
 						main {
