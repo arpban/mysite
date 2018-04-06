@@ -1,5 +1,11 @@
 [
   {
+    "id": "inclist",
+    "title": "Inclist",
+    "description": "View financial results of public companies, all at one place.",
+    "date": "2-4-2018"
+  },
+  {
     "id": "umbrella-note",
     "title": "Umbrella Note",
     "description": "Cross platform desktop application for writing and journaling.",

@@ -10,6 +10,7 @@ const Work = () => (
 	<div className="wrap">
 		<h1>Work</h1>
 		<div className="cards">
+			<Card img="../static/essays/2018/inclist/screenshot_landing_compressed.jpg" title="Inclist" summary="View financial results of public companies, all at one place. https://inclist.co" loc="/2018/inclist" />
 			<Card img="../static/essays/2018/umbrella-note/screenshot-black.JPG" title="Umbrella Note" summary="Cross platform desktop application for writing and journaling. https://umbrellanote.com" loc="/2018/umbrella-note" />
 			<Card img="../static/essays/2017/popcorncss/1.PNG" title="Popcorncss" summary="A single page website featuring a collection of beautiful open source UI components. http://popcorncss.com" loc="/2017/popcorncss" />
 			<Card img="../static/essays/2017/postmaker/1.jpg" title="Postmaker" summary="A webapp for managing all your social media in one place." loc="/2017/postmaker" />
@@ -19,6 +20,7 @@ const Work = () => (
 
 		<div className="list">
 			<ul>
+				<li><Link href="/2018/inclist"><a>Inclist <span>View financial results of public companies, all at one place. https://inclist.co </span></a></Link></li>
 				<li><Link href="/2018/umbrella-note"><a>Umbrella Note <span>Cross platform desktop application for writing and journaling. https://umbrellanote.com </span></a></Link></li>
 				<li><Link href="/2017/popcorncss"><a>Popcorncss<span>A single page website featuring a collection of beautiful open source UI components. http://popcorncss.com</span></a></Link></li>
 				<li><Link href="/2017/postmaker"><a>Postmaker <span>A webapp for managing all your social media in one place.</span></a></Link></li>

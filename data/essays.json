@@ -31,12 +31,18 @@
   },
   {
     "id": "built-to-last",
-    "title": "Book : Built to Last",
+    "title": "Built to Last",
     "date": "17-2-2018"
   },
   {
     "id": "show-your-work",
-    "title": "Book : Show your work by Austin Kleon",
+    "title": "Show your work by Austin Kleon",
     "date": "10-3-2018"
+  },
+  {
+    "id": "inclist",
+    "title": "Inclist",
+    "description": "View financial results of public companies, all at one place.",
+    "date": "2-4-2018"
   }
 ]
