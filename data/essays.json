@@ -49,5 +49,10 @@
     "id": "umbrella-note-2-launch",
     "title": "Umbrella Note 2.0 launch",
     "date": "14-4-2018"
+  },
+  {
+    "id": "inclist-graphs",
+    "title": "Added Support for Graphs on Inclist",
+    "date": "19-4-2018"
   }
 ]
